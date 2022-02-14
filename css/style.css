@@ -264,11 +264,11 @@ _______________________________________________________*/
 .home-banner-2 {padding-top: 84px;}
 .banner-heading-tow{font-size: 45px; text-transform: uppercase; margin-bottom: 15px;}
 .home-banner-2 .banner-des{margin-bottom: 0;}
-.coin-counter{border-radius: 40px; padding: 40px; text-align: center; max-width: 492px; float: right;}
-.coin-start{font-size: 20px; font-family: 'Poppins', sans-serif; padding-bottom: 20px;}
+.coin-counter{border-radius: 40px; padding: 40px; text-align: center; max-width: 492px; margin: 50px;}
+.coin-start{font-size: 20px; font-family: 'Montserrat', sans-serif; padding-bottom: 20px;}
 .coin-head{font-size: 20px; font-weight: 600; margin-bottom: 25px;}
 .coins-counter-loop{padding-bottom: 35px;}
-.coins-counter-loop li{display: inline-block; padding: 0px 17px; position: relative;}
+.coins-counter-loop li{display: inline-block; padding: 0px 10px; position: relative;}
 .coins-counter-loop li:first-child{padding-left: 0;}
 .coins-counter-loop li:last-child{padding-right: 0;}
 .coins-counter-loop li:before, .coins-counter-loop li:after{content: ""; position: absolute; right: -4px; width: 5px; height: 5px;}
@@ -276,7 +276,7 @@ _______________________________________________________*/
 .coins-counter-loop li:after{top: 41px;}
 .coins-counter-loop li:last-child:before, .coins-counter-loop li:last-child:after {content: unset;}
 .coins-counter-loop li span{width: 75px; height: 75px; line-height: 75px; font-size: 35px; font-weight: 700; font-family: 'Poppins', sans-serif; display: block; border-radius: 5px;}
-.coins-counter-loop li .coin-day{font-family: 'Poppins', sans-serif; text-transform: uppercase; padding-top: 8px; display: block;}
+.coins-counter-loop li .coin-day{font-family: 'Montserrat', sans-serif; text-transform: uppercase; padding-top: 8px; display: block;}
 .coin-slide-text {text-align: left; font-weight: 700; padding-bottom: 10px;}
 .coin-max {float: right;}
 .coins-progress {width: 100%; height: 18px; border-radius: 20px; overflow: hidden; position: relative; margin-bottom: 50px;}
@@ -531,7 +531,7 @@ footer.bg-pattern{background-position: center 125px; background: #f2f8fe url(../
 .footer-logo img{transition: all 400ms ease;}
 .footer-logo img:hover {opacity: 0.5;}
 .footer {border-bottom: 1px solid; padding-bottom: 25px;}
-.footer-icon ul li{display: inline-block; padding: 0px 5px;}
+.footer-icon ul li{display: inline-block; padding: 0px 5px; margin-top: 25px}
 .footer-icon ul li:first-child{padding-left: 0;}
 .footer-icon ul li a{display: list-item; width: 40px; height: 40px; line-height: 40px; text-align: center; border-radius: 100%; font-size: 16px;}
 .footer-link ul{display: inline-block; width: 100%;}
@@ -540,7 +540,7 @@ footer.bg-pattern{background-position: center 125px; background: #f2f8fe url(../
 .subscribe label{font-size: 18px; padding-bottom: 15px;}
 .subscribe .form-control{border: 0; border-radius: 5px; padding-left: 25px; padding-right: 125px;}
 .subscribe .submit{font-size: 16px; font-weight: 700; position: absolute; bottom: 0; right: 0; height: 50px; border: 0; width: 115px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;} 
-.copyright{padding-top: 50px;}
+.copyright{padding-top: 10px;}
 .copyright p a{text-decoration: underline;}
 .copyright ul{text-align: right;}
 .copyright ul li{display: inline-block; padding: 0px 25px; position: relative;}
