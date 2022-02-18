@@ -218,14 +218,20 @@
 }
 
 @media(max-width: 576px) {
+	/*----- UNCOMMENT WHEN HAVE APP
 	.logo-toggle {display: block; max-width: 75px;}
 	.logo {display: none;}
+	*/
 }
 
 @media(max-width: 480px){
 	/*----- Home Page -----*/
+
+	/*----- UNCOMMENT WHEN HAVE APP
 	.logo-toggle {display: block; max-width: 75px;}
 	.logo {display: none;}
+	*/
+
 	/*----- Token Sale Page -----*/
 	.token-sale-counter .coins-counter-loop li {padding: 0px 6px;}
 	.token-sale-counter .coins-counter-loop li span {font-size: 20px; line-height: 20px;}
