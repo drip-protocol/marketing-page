@@ -1,294 +1,393 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	<!-- Basic Page Needs -->
-    <meta charset="utf-8">
+  <head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8" />
     <title>Drip</title>
 
-	<!-- Mobile Specific Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link type="image/x-icon" href="images/fav-icon.png" rel="icon">
+    <!-- Mobile Specific Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link type="image/x-icon" href="images/fav-icon.png" rel="icon" />
 
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/color.css">
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
-	</head>
-	<body>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/color.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- Start preloader -->
+    <div id="preloader" class="">
+        <img id="preloader-img" src="images/logo-toggle.png"/>
+    </div>
+    <!-- End preloader -->
 
-		<!-- Top scroll -->
-		<div class="top-scroll transition">
-			<a href="#banner" class="scrollTo"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
-		</div>	
-		<!-- Top scroll End -->
-		<header class="transition">
-			<div class="container">
-				<div class="row d-flex justify-content-between">
-					<div class="d-flex justify-content-between align-items-center">
-						<div class="logo-toggle">
-							<a href="index.html"><img src="images/logo-toggle.png" class="transition" alt="Drip"></a>
-						</div>
-						<div class="logo">
-							<a href="index.html"><img src="images/logo.png" class="transition" alt="Drip"></a>
-						</div>
-						<!---
+    <!-- Top scroll -->
+    <div class="top-scroll transition">
+      <a href="#banner" class="scrollTo"
+        ><i class="fa fa-angle-up" aria-hidden="true"></i
+      ></a>
+    </div>
+    <!-- Top scroll End -->
+    <header class="transition">
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="logo-toggle">
+              <a href="index.html"
+                ><img
+                  src="images/logo-toggle.png"
+                  class="transition"
+                  alt="Drip"
+              /></a>
+            </div>
+            <div class="logo">
+              <a href="index.html"
+                ><img src="images/logo.png" class="transition" alt="Drip"
+              /></a>
+            </div>
+            <!---
 							<div>
 								<div class="signin d-inline-block">
 									<a href="#" class="btn">Launch App</a>
 								</div>
 							</div>
 						-->
-					</div>
-				</div>
-			</div>
-		</header>
+          </div>
+        </div>
+      </div>
+    </header>
 
-		<section class="home-banner" id="banner">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 col-md-6 position-u flex-align wow fadeInLeft">
-						<div class="banner-contain">
-							<h1 class="banner-heading">The <span>Mobile First</span> exchange on Solana</h1>
-							<p class="banner-des">Drip Protocol is a mobile-first decentralized exchange aimed at solving the inherent complexity of 
-								decentralized finance while also preserving its usefulness to both newcomers and seasoned traders alike.
-							</p>
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-6 wow fadeInRight text-center">
-							<img class="center-block" src="images/promo.png" alt="banner" >
-					</div>
-				</div>
-			</div>
-		</section>
+    <section class="home-banner" id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 position-u flex-align wow fadeInLeft">
+            <div class="banner-contain">
+              <h1 class="banner-heading">
+                The <span>Mobile First</span> exchange on Solana
+              </h1>
+              <p class="banner-des">
+                Drip Protocol is a mobile-first decentralized exchange aimed at
+                solving the inherent complexity of decentralized finance while
+                also preserving its usefulness to both newcomers and seasoned
+                traders alike.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 wow fadeInRight text-center">
+            <img class="center-block" src="images/promo.png" alt="banner" />
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<section class="work-part lightskyblue ptb-100">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 wow fadeInUp">
-						<div class="section-heading text-center pb-65">
-							<label class="sub-heading">what is drip</label>
-							<h2 class="heading-title">How it Works</h2>
-							<p class="heading-des">Remove the barriers of DeFi and abstract its complications with a familiar user interface to traders.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 text-center flex-align justify-center wow fadeInLeft">
-						<div class="work-box">
-							<div class="work-box-bg"></div>
-							<img src="images/markets.png" class="rotation-img" alt="Work Process">
-						</div>
-						<div class="position-absolute">
-							<img src="images/fav-icon.png" class="position-relative" width="71" height="71"/>
-						</div>
-					</div>
-					<div class="col-md-6 col-sm-12 flex-align justify-center wow fadeInRight">
-						<div class="work-box">
-							<h3 class="work-process-title pb-25">Drip Protocol is fast and cheap.</h3>
-							<p class="work-des pb-20">Drip Protocol utilizes Solana’s high performance and Serum’s deep liquidity order books in order to give 
-								its users the best experience.</p>
+    <section class="work-part lightskyblue ptb-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 wow fadeInUp">
+            <div class="section-heading text-center pb-65">
+              <label class="sub-heading">what is drip</label>
+              <h2 class="heading-title">How it Works</h2>
+              <p class="heading-des">
+                Remove the barriers of DeFi and abstract its complications with
+                a familiar user interface to traders.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-md-6 text-center flex-align justify-center wow fadeInLeft"
+          >
+            <div class="work-box">
+              <div class="work-box-bg"></div>
+              <img
+                src="images/markets.png"
+                class="rotation-img"
+                alt="Work Process"
+              />
+            </div>
+            <div class="position-absolute">
+              <img
+                src="images/fav-icon.png"
+                class="position-relative"
+                width="71"
+                height="71"
+              />
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-sm-12 flex-align justify-center wow fadeInRight"
+          >
+            <div class="work-box">
+              <h3 class="work-process-title pb-25">
+                Drip Protocol is fast and cheap.
+              </h3>
+              <p class="work-des pb-20">
+                Drip Protocol utilizes Solana’s high performance and Serum’s
+                deep liquidity order books in order to give its users the best
+                experience.
+              </p>
 
-							<ul class="check-list">
-								<li><span><i class="fa fa-check" aria-hidden="true"></i></span> <p>Solana's fast transactions and low fees</p></li>
-								<li><span><i class="fa fa-check" aria-hidden="true"></i></span> <p>Serum's deep liquidity order books</p></li>
-								<li><span><i class="fa fa-check" aria-hidden="true"></i></span> <p>Trade in more than 250 markets</p></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+              <ul class="check-list">
+                <li>
+                  <span><i class="fa fa-check" aria-hidden="true"></i></span>
+                  <p>Solana's fast transactions and low fees</p>
+                </li>
+                <li>
+                  <span><i class="fa fa-check" aria-hidden="true"></i></span>
+                  <p>Serum's deep liquidity order books</p>
+                </li>
+                <li>
+                  <span><i class="fa fa-check" aria-hidden="true"></i></span>
+                  <p>Trade in more than 250 markets</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<section class="feature-part pt-100 pb-10">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 wow fadeInUp">
-						<div class="section-heading text-center pb-65">
-							<label class="sub-heading">Drip Features</label>
-							<h2 class="heading-title">Best Features</h2>
-							<p class="heading-des">Drip provides a convenient and familiar trading experience to centralized services, with the low-fees and trustless transparency of 
-								decentralized finance.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4 wow fadeInUp pb-80">
-						<div class="feature-box">
-							<img src="images/lightbulb.svg" alt="bolt" width="50px" height="50px"/>
-							<div class="feature-contain pt-25">
-								<a href="feature.html" class="feature-title">Intuitive UI/UX</a>
-								<p class="feature-des">Drip's intuitive and responsive design allows any skill trader to confidently execute trades with ease.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 wow fadeInUp pb-80">
-						<div class="feature-box">
-							<img src="images/BoltRounded.svg" alt="bolt" width="50px" height="50px"/>
-							<div class="feature-contain pt-25">
-								<a href="feature.html" class="feature-title">Fast</a>
-								<p class="feature-des">Solana's fast transactions and Serum's large orderbooks means your orders through Drip will execute quickly.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 wow fadeInUp pb-80">
-						<div class="feature-box">
-							<img src="images/dollar-sign.svg" alt="bolt" width="50px" height="50px"/>
-							<div class="feature-contain pt-25">
-								<a href="feature.html" class="feature-title">Low Cost</a>
-								<p class="feature-des">Drip utilizes Solana's low transaction fees to give you the best price.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+    <section class="feature-part pt-100 pb-10">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 wow fadeInUp">
+            <div class="section-heading text-center pb-65">
+              <label class="sub-heading">Drip Features</label>
+              <h2 class="heading-title">Best Features</h2>
+              <p class="heading-des">
+                Drip provides a convenient and familiar trading experience to
+                centralized services, with the low-fees and trustless
+                transparency of decentralized finance.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 wow fadeInUp pb-80">
+            <div class="feature-box">
+              <img
+                src="images/lightbulb.svg"
+                alt="bolt"
+                width="50px"
+                height="50px"
+              />
+              <div class="feature-contain pt-25">
+                <a href="feature.html" class="feature-title">Intuitive UI/UX</a>
+                <p class="feature-des">
+                  Drip's intuitive and responsive design allows any skill trader
+                  to confidently execute trades with ease.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 wow fadeInUp pb-80">
+            <div class="feature-box">
+              <img
+                src="images/BoltRounded.svg"
+                alt="bolt"
+                width="50px"
+                height="50px"
+              />
+              <div class="feature-contain pt-25">
+                <a href="feature.html" class="feature-title">Fast</a>
+                <p class="feature-des">
+                  Solana's fast transactions and Serum's large orderbooks means
+                  your orders through Drip will execute quickly.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 wow fadeInUp pb-80">
+            <div class="feature-box">
+              <img
+                src="images/dollar-sign.svg"
+                alt="bolt"
+                width="50px"
+                height="50px"
+              />
+              <div class="feature-contain pt-25">
+                <a href="feature.html" class="feature-title">Low Cost</a>
+                <p class="feature-des">
+                  Drip utilizes Solana's low transaction fees to give you the
+                  best price.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<section class="timeline lightskyblue ptb-100">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 wow fadeInUp">
-						<div class="section-heading text-center pb-65">
-							<label class="sub-heading">roadmap</label>
-							<h2 class="heading-title">The Timeline</h2>
-							<p class="heading-des">Drip Protocol's mobile-first focus aims to help onboard and scale with the next billion users of DeFi.</p>
-						</div>
-					</div>
-				</div>
-				<div class="main-roadmap">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="h-border wow fadeInLeft"></div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<div class="roadmap-slider owl-carousel">
-								<div class="roadmap wow fadeInLeft">
-									<div class="roadmap-box text-center">
-										<div class="date-title">March 2022</div>
-										<div class="map-graphic">
-											<div class="small-round"><span></span></div>
-											<div class="v-row"></div>
-										</div>
-										<div class="roadmap-detail-box">
-											<p>Launch of Drip Protocol</p>
-										</div>
-									</div>
-								</div>
-								<div class="roadmap wow fadeInLeft">
-									<div class="roadmap-box text-center">
-										<div class="date-title">Q2 2022</div>
-										<div class="map-graphic">
-											<div class="small-round"><span></span></div>
-											<div class="v-row"></div>
-										</div>
-										<div class="roadmap-detail-box">
-											<p>Utility NFT</p>
-										</div>
-									</div>
-								</div>
-								<div class="roadmap wow fadeInLeft">
-									<div class="roadmap-box text-center">
-										<div class="date-title">Q3 2022</div>
-										<div class="map-graphic">
-											<div class="small-round"><span></span></div>
-											<div class="v-row"></div>
-										</div>
-										<div class="roadmap-detail-box">
-											<p>-Advance Trading View</p>
-											<p>-Referral Rewards</p>
-											<p>-On-Ramps</p>
-										</div>
-									</div>
-								</div>
-								<div class="roadmap wow fadeInLeft">
-									<div class="roadmap-box text-center">
-										<div class="date-title">Q4 2022</div>
-										<div class="map-graphic">
-											<div class="small-round"><span></span></div>
-											<div class="v-row"></div>
-										</div>
-										<div class="roadmap-detail-box">
-											<p>Token Launch ($DRIP)</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row justify-content-center">
-						<div class="col-12 col-lg-8 col-xl-6 col-sm-10 wow fadeInRight">
-							<div class="coin-counter">
-								<label class="coin-start pb-20">App Launch</label>
-								<h2 class="coin-head">March 17, 2022</h2>
-								<ul class="coins-counter-loop">
-									<li>
-										<span id="days">12</span>
-										<label class="coin-day">Days</label>
-									</li>
-									<li>
-										<span id="hours">08</span>
-										<label class="coin-day">hours</label>
-									</li>
-									<li>
-										<span id="minutes">24</span>
-										<label class="coin-day">minutes</label>
-									</li>
-									<li>
-										<span id="seconds">33</span>
-										<label class="coin-day">seconds</label>
-									</li>
-								</ul>
-								<label>(UTC-7)</label>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+    <section class="timeline lightskyblue ptb-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 wow fadeInUp">
+            <div class="section-heading text-center pb-65">
+              <label class="sub-heading">roadmap</label>
+              <h2 class="heading-title">The Timeline</h2>
+              <p class="heading-des">
+                Drip Protocol's mobile-first focus aims to help onboard and
+                scale with the next billion users of DeFi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="main-roadmap">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="h-border wow fadeInLeft"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="roadmap-slider owl-carousel">
+                <div class="roadmap wow fadeInLeft">
+                  <div class="roadmap-box text-center">
+                    <div class="date-title">March 2022</div>
+                    <div class="map-graphic">
+                      <div class="small-round"><span></span></div>
+                      <div class="v-row"></div>
+                    </div>
+                    <div class="roadmap-detail-box">
+                      <p>Launch of Drip Protocol</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="roadmap wow fadeInLeft">
+                  <div class="roadmap-box text-center">
+                    <div class="date-title">Q2 2022</div>
+                    <div class="map-graphic">
+                      <div class="small-round"><span></span></div>
+                      <div class="v-row"></div>
+                    </div>
+                    <div class="roadmap-detail-box">
+                      <p>Utility NFT</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="roadmap wow fadeInLeft">
+                  <div class="roadmap-box text-center">
+                    <div class="date-title">Q3 2022</div>
+                    <div class="map-graphic">
+                      <div class="small-round"><span></span></div>
+                      <div class="v-row"></div>
+                    </div>
+                    <div class="roadmap-detail-box">
+                      <p>-Advance Trading View</p>
+                      <p>-Referral Rewards</p>
+                      <p>-On-Ramps</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="roadmap wow fadeInLeft">
+                  <div class="roadmap-box text-center">
+                    <div class="date-title">Q4 2022</div>
+                    <div class="map-graphic">
+                      <div class="small-round"><span></span></div>
+                      <div class="v-row"></div>
+                    </div>
+                    <div class="roadmap-detail-box">
+                      <p>Token Launch ($DRIP)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-8 col-xl-6 col-sm-10 wow fadeInRight">
+              <div class="coin-counter">
+                <label class="coin-start pb-20">App Launch</label>
+                <h2 class="coin-head">March 17, 2022</h2>
+                <ul class="coins-counter-loop">
+                  <li>
+                    <span id="days">12</span>
+                    <label class="coin-day">Days</label>
+                  </li>
+                  <li>
+                    <span id="hours">08</span>
+                    <label class="coin-day">hours</label>
+                  </li>
+                  <li>
+                    <span id="minutes">24</span>
+                    <label class="coin-day">minutes</label>
+                  </li>
+                  <li>
+                    <span id="seconds">33</span>
+                    <label class="coin-day">seconds</label>
+                  </li>
+                </ul>
+                <label>(UTC-7)</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<footer class="ptb-100">
-			<div class="container">
-				<div class="footer">
-					<div class="row justify-content-between">
-						<div class="col-lg-6">
-							<div class="footer-logo pb-25">
-								<a href="index.html"><img src="images/logo.png" alt="Cryptcon"></a>
-							</div>
-						</div>
-					</div>
+    <footer class="ptb-100">
+      <div class="container">
+        <div class="footer">
+          <div class="row justify-content-between">
+            <div class="col-lg-6">
+              <div class="footer-logo pb-25">
+                <a href="index.html"
+                  ><img src="images/logo.png" alt="Cryptcon"
+                /></a>
+              </div>
+            </div>
+          </div>
 
-					<div class="">
-						<div class="footer-icon">
-							<ul>
-								<li class="align-middle"><a href="#"><img class="discord-icon" src="./images/discord.svg" alt="Discord"></a></li>
-								<li class="align-middle"><a href="https://twitter.com/drip_protocol" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li class="align-middle"><a href="https://drip-protocol.medium.com/" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
-								<li class="align-middle"><a href="mailto:gm@drip.trade"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="copyright">
-					<div class="row">
-						<div class="col-lg-6">
-							<p>© Drip Protocol all Rights Reserved</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-	
-		<script src="js/jquery-3.4.1.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/owl.carousel.min.js"></script>
-		<script src="js/snap.svg-min.js"></script>
-		<script src="js/jquery.listtopie.min.js"></script>
-		<script src="js/animation.js"></script>
-		<script src="js/custom.js"></script>
-		
-	</body>
+          <div class="">
+            <div class="footer-icon">
+              <ul>
+                <li class="align-middle">
+                  <a href="#"
+                    ><img
+                      class="discord-icon"
+                      src="./images/discord.svg"
+                      alt="Discord"
+                  /></a>
+                </li>
+                <li class="align-middle">
+                  <a href="https://twitter.com/drip_protocol" target="_blank"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li class="align-middle">
+                  <a href="https://drip-protocol.medium.com/" target="_blank"
+                    ><i class="fa fa-medium" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li class="align-middle">
+                  <a href="mailto:gm@drip.trade"
+                    ><i class="fa fa-envelope" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="row">
+            <div class="col-lg-6">
+              <p>© Drip Protocol all Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/snap.svg-min.js"></script>
+    <script src="js/jquery.listtopie.min.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
 </html>
