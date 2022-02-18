@@ -222,34 +222,6 @@ $(function() {
   }
   /* Tokan Graph End */
 
-    function responsive_dropdown () {
-        /* Responsive Menu */
-        $(".menu-toggle").on("click", function(){
-            $(".menu-toggle").toggleClass("active");
-            $(".menu").slideToggle("slow");
-        });
-        $(".mega-menu > .opener").on("click", function() {
-            if ($(this).hasClass("active")) {
-                $(this).removeClass("active");
-                $(this)
-                    .siblings(".menu ul ul")
-                    .slideUp(200);
-            } else {
-                $(".mega-menu > .opener").removeClass("active");
-                $(this).addClass("active");
-                $(".menu ul ul").slideUp(200);
-                $(this)
-                    .siblings(".menu ul ul")
-                    .slideDown(200);
-            }
-        });
-        /* Responsive Menu End */
-
-    };
-    $(document).ready(function() {
-        responsive_dropdown ();
-    });
-
     function accordion_faq () {
         /* Accordion FAQ */
         if ($(".accordion-faq-box").length > 0) {
@@ -279,7 +251,7 @@ $(function() {
 
     /* -------- Countdown Timer ------- */
     if ($(".coins-counter-loop").length > 0) {
-        var your_date = '2022-03-17 10:00:00';
+        var your_date = '2022-03-17 00:00:00';
         var second = 1000,
             minute = second * 60,
             hour = minute * 60,

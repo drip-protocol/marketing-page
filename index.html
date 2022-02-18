@@ -16,10 +16,6 @@
 	</head>
 	<body>
 
-		<!-- Start preloader -->
-		<div id="preloader"></div>
-		<!-- End preloader -->
-
 		<!-- Top scroll -->
 		<div class="top-scroll transition">
 			<a href="#banner" class="scrollTo"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
@@ -27,17 +23,15 @@
 		<!-- Top scroll End -->
 		<header class="transition">
 			<div class="container">
-				<div class="row flex-align">
-					<div class="col-lg-4 col-md-3 col-8">
+				<div class="row d-flex justify-content-between">
+					<div class="d-flex justify-content-between align-items-center">
+						<div class="logo-toggle">
+							<a href="index.html"><img src="images/logo-toggle.png" class="transition" alt="Drip"></a>
+						</div>
 						<div class="logo">
 							<a href="index.html"><img src="images/logo.png" class="transition" alt="Drip"></a>
 						</div>
-					</div>
-					<div class="col-lg-8 col-md-9 col-4 text-right">
-						<div class="menu-toggle">
-							<span></span>
-						</div>
-						<div class="menu">
+						<div>
 							<div class="signin d-inline-block">
 								<a href="#" class="btn">Launch App</a>
 							</div>
@@ -58,10 +52,8 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-lg-6 col-md-6 position-u wow fadeInRight">
-						<div>
-							<img src="images/promo.png" alt="banner">
-						</div>
+					<div class="col-lg-6 col-md-6 wow fadeInRight text-center">
+							<img class="center-block" src="images/promo.png" alt="banner" >
 					</div>
 				</div>
 			</div>
@@ -89,7 +81,7 @@
 							<img src="images/fav-icon.png" class="position-relative" width="71" height="71"/>
 						</div>
 					</div>
-					<div class="col-md-6 flex-align wow fadeInRight">
+					<div class="col-md-6 col-sm-12 flex-align justify-center wow fadeInRight">
 						<div class="work-box">
 							<h3 class="work-process-title pb-25">Drip Protocol is fast and cheap.</h3>
 							<p class="work-des pb-20">Drip Protocol utilizes Solana’s high performance and Serum’s deep liquidity order books in order to give 
@@ -122,7 +114,7 @@
 				<div class="row">
 					<div class="col-md-4 wow fadeInUp pb-80">
 						<div class="feature-box">
-							<i class="fa-4x fa-mobile" aria-hidden="true"></i>
+							<img src="images/lightbulb.svg" alt="bolt" width="50px" height="50px"/>
 							<div class="feature-contain pt-25">
 								<a href="feature.html" class="feature-title">Intuitive UI/UX</a>
 								<p class="feature-des">Drip's intuitive and responsive design allows any skill trader to confidently execute trades with ease.</p>
@@ -131,7 +123,7 @@
 					</div>
 					<div class="col-md-4 wow fadeInUp pb-80">
 						<div class="feature-box">
-							<i class="fa fa-bolt " aria-hidden="true"></i>
+							<img src="images/BoltRounded.svg" alt="bolt" width="50px" height="50px"/>
 							<div class="feature-contain pt-25">
 								<a href="feature.html" class="feature-title">Fast</a>
 								<p class="feature-des">Solana's fast transactions and Serum's large orderbooks means your orders through Drip will execute quickly.</p>
@@ -140,6 +132,7 @@
 					</div>
 					<div class="col-md-4 wow fadeInUp pb-80">
 						<div class="feature-box">
+							<img src="images/dollar-sign.svg" alt="bolt" width="50px" height="50px"/>
 							<div class="feature-contain pt-25">
 								<a href="feature.html" class="feature-title">Low Cost</a>
 								<p class="feature-des">Drip utilizes Solana's low transaction fees to give you the best price.</p>
@@ -224,9 +217,10 @@
 						</div>
 					</div>
 					<div class="row justify-content-center">
-						<div class="col-6 wow fadeInRight">
+						<div class="col-12 col-lg-8 col-xl-6 col-sm-10 wow fadeInRight">
 							<div class="coin-counter">
-								<label class="coin-start pb-20">Appl Launch in</label>
+								<label class="coin-start pb-20">App Launch</label>
+								<h2 class="coin-head">March 17, 2022</h2>
 								<ul class="coins-counter-loop">
 									<li>
 										<span id="days">12</span>
@@ -248,71 +242,29 @@
 								<label>(UTC-7)</label>
 							</div>
 						</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="blog-part ptb-100">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 wow fadeInUp">
-						<div class="section-heading text-center pb-65">
-							<label class="sub-heading">news</label>
-							<h2 class="heading-title">Medium</h2>
-							<p class="heading-des">Medium will host all our updates and will be the center of Drip's blog.</p>
-						</div>
-					</div>
-				</div>
-				<div class="blog-slider owl-carousel">
-					<div class="blog-box wow fadeInUp">
-						<div class="blog-img mb-15">
-							<a href="blog-detail.html"><img src="images/blog-1.png" alt="blog"></a>
-						</div>
-						<div class="blog-des-box">
-							<a href="blog-detail.html" class="blog-title">Welcome to Drip!</a>
-							<ul class="blog-date">
-								<li>March 20,2021</li>
-							</ul>
-							<p class="blog-des">An introductory post of Drip Protocol on our Medium. Learn more about Drip Protocol and the exciting things to come!</p>
-							<a href="blog-detail.html" class="read-more">Read More</a>
-						</div>
-					</div>
-					<div class="blog-box wow fadeInUp">
-						<div class="blog-img mb-15">
-							<a href="blog-detail.html"><img src="images/blog-2.png" alt="blog"></a>
-						</div>
-						<div class="blog-des-box">
-							<a href="blog-detail.html" class="blog-title">A Simple Guide to the Different Language and Accronyms of Crypto</a>
-							<ul class="blog-date">
-								<li>March 20,2021</li>
-								<li>by John Doe</li>
-							</ul>
-							<p class="blog-des">Starting in Crypto is difficult and the complicated language does not help. Here is a good cheatsheet of Different
-								accronyms you may come accross in your crypto journey.
-							</p>
-							<a href="blog-detail.html" class="read-more">Read More</a>
-						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<footer class="bg-pattern lightskyblue ptb-100">
+		<footer class="ptb-100">
 			<div class="container">
 				<div class="footer">
 					<div class="row justify-content-between">
-						<div class="col-4">
+						<div class="col-lg-6">
 							<div class="footer-logo pb-25">
-							<a href="index.html"><img src="images/logo.png" alt="Cryptcon"></a>
+								<a href="index.html"><img src="images/logo.png" alt="Cryptcon"></a>
+							</div>
 						</div>
 					</div>
 
-					<div class="col-4">
-						<div class="footer-icon align-middle">
+					<div class="">
+						<div class="footer-icon">
 							<ul>
-								<li><a href="#"><img class="discord-icon" src="./images/discord.svg" alt="Discord"></a></li>
-								<li><a href="https://twitter.com/drip_protocol" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a href="https://drip-protocol.medium.com/" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+								<li class="align-middle"><a href="#"><img class="discord-icon" src="./images/discord.svg" alt="Discord"></a></li>
+								<li class="align-middle"><a href="https://twitter.com/drip_protocol" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li class="align-middle"><a href="https://drip-protocol.medium.com/" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+								<li class="align-middle"><a href="mailto:gm@drip.trade"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -321,11 +273,6 @@
 					<div class="row">
 						<div class="col-lg-6">
 							<p>© Drip Protocol all Rights Reserved</p>
-						</div>
-						<div class="col-md-3">
-							<ul>
-								<li class="align-middle"><a href="contact.html">Contact Us</a></li>
-							</ul>
 						</div>
 					</div>
 				</div>
