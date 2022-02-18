@@ -1,12 +1,6 @@
 var w = 0;
 $(function() {
  "use strict";
-    /* -------- preloader ------- */
-    $(window).on("load", function() {
-        $('#preloader').delay(2500).fadeOut(500);
-    });
-    /* -------- preloader End ------- */
-
     /*----- Sticky Header -----*/
     $(window).on("scroll", function(){
         if ($(this).scrollTop() > 50) {
@@ -380,3 +374,10 @@ if ($("#map").length > 0) {
 }
 
 /* -------- Google Map End --------*/
+
+    /* -------- preloader ------- */
+    $(window).on("load", function() {
+        console.log("here")
+        $('#preloader').delay(2500).fadeOut(500);
+    });
+    /* -------- preloader End ------- */
