@@ -55,7 +55,7 @@ header.fixed{background: #fff; box-shadow: 0px 0px 10px 1px rgb(0, 0, 0, 0.2);}
 ul.check-list li span{background: #0C8FF0; color: #fff;}
 
 /*----- Feature Section -----*/
-.feature-title:hover {color: #0C8FF0;}
+/* .feature-title:hover {color: #0C8FF0;} */
 .feature-box:hover path.hover {fill: #0C8FF0;}
 
 /*----- Timeline Section -----*/
@@ -194,7 +194,7 @@ ul.check-list li span{background: #0C8FF0; color: #fff;}
 
 /*----- Footer Section -----*/
 .footer-icon ul li a, .subscribe .submit:hover{background: #dddddd; color: #999999;}
-.footer-logo { max-width: 400px;}
+.footer-logo { max-width: 400px; padding-bottom: 10px;}
 .footer-icon ul li a:hover{color: #fff;}
 .footer-icon ul li a:hover{background: #0C8FF0;}
 .footer-link ul li a:hover, .copyright ul li a:hover, .copyright p a{color: #0C8FF0;}

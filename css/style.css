@@ -522,9 +522,9 @@ _______________________________________________________*/
 
 /*----- Footer Section -----*/
 footer.bg-pattern{background-position: center 125px; background: #f2f8fe url(../images/footer-petrn.png) no-repeat bottom; padding-bottom: 25px;}
-.footer-logo img{transition: all 400ms ease;}
+.footer-logo img{transition: all 400ms ease; max-width: 200px;}
 .footer-logo img:hover {opacity: 0.5;}
-.footer {border-bottom: 1px solid; padding-bottom: 25px;}
+.footer {border-bottom: 1px solid; padding-bottom: 10px;}
 .footer-icon ul li{display: inline-block; padding: 0px 5px}
 .footer-icon ul li:first-child{padding-left: 0;}
 .footer-icon ul li a{display: list-item; width: 40px; height: 40px; line-height: 40px; text-align: center; border-radius: 100%; font-size: 16px;}
