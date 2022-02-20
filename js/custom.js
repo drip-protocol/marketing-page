@@ -377,7 +377,6 @@ if ($("#map").length > 0) {
 
     /* -------- preloader ------- */
     $(window).on("load", function() {
-        console.log("here")
         $('#preloader').delay(2500).fadeOut(500);
     });
     /* -------- preloader End ------- */
