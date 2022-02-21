@@ -245,7 +245,7 @@ $(function() {
 
     /* -------- Countdown Timer ------- */
     if ($(".coins-counter-loop").length > 0) {
-        var your_date = '2022-03-17 12:00:00';
+        var your_date = '2022-03-17 18:00:00';
         var second = 1000,
             minute = second * 60,
             hour = minute * 60,
